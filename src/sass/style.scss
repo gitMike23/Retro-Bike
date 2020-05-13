@@ -1,0 +1,33 @@
+@import 'libs/fonts';
+@import 'base/ibg';
+@import 'blocks/full_screen';
+@import 'blocks/header';
+@import 'blocks/burger';
+
+
+
+@import 'base/media';
+
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+
+//общая оболочка
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+//основная сетка
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+}
+
