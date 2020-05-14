@@ -3,7 +3,7 @@
 @import 'blocks/full_screen';
 @import 'blocks/header';
 @import 'blocks/burger';
-
+@import 'blocks/generation';
 
 
 @import 'base/media';
@@ -29,5 +29,6 @@ html, body {
 .container {
     max-width: 1130px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
