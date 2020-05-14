@@ -31,5 +31,19 @@
         color: rgb(132, 135, 137);
         text-align: center;
         line-height: 34px;
+        &_j {
+            text-align: justify;
+            line-height: 30px;
+            font-size: 16px;
+            &::after {
+                content: "";
+                display: block;
+                margin: 35px auto 0 auto;
+                width: 50px;
+                height: 1px;
+                background-color: #ebebeb;
+            }
+        }
     }
+
 }
