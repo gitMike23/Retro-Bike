@@ -27,6 +27,14 @@
     &__image {
         padding-bottom: 37.51%;
     }
+    &_rev {
+        .brands__column {
+            order: 1;
+            &_b {
+                order: 2;
+            }
+        }
+    }
 }
 .item {
     display: block;
