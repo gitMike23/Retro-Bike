@@ -107,4 +107,49 @@
         height: auto;
         padding-bottom: 70%;
     }
+    .shop {
+        &__body {
+            flex-wrap: wrap;
+        }
+        &__column {
+            flex: 0 1 50%;
+            &:first-child {
+                flex: 1 1 100%;
+            }
+            &:last-child {
+                flex: 1 1 100%;
+            }
+        }
+        &__btn {
+            padding: 0 30px;
+        }
+        &__footer {
+            padding: 50px 0;
+        }
+        
+
+    }
+    .block-shop {
+        height: 100%;
+        &__row {
+            display: flex;
+        }
+        &__column {
+            flex: 0 1 50%;
+        }
+        &__item {
+            padding: 0 0 50% 0;
+            height: auto;
+            &_b {
+                padding: 0 0 200.5% 0;
+            }
+            &_l {
+                padding: 0 0 100% 0;
+    
+            }
+        }
+    }
+    .slider {
+        padding: 80px 0 40px 0;
+    }
 }

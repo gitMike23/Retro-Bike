@@ -1,0 +1,53 @@
+.shop {
+    &__body {
+        display: flex;
+    }
+    &__column {
+        flex: 0 1 16.666%;
+        &_b {
+            flex: 0 1 33.3333%;
+        }
+    }
+    &__footer {
+        background-color: #282f35;
+        padding: 75px 0;
+        text-align: center;
+    }
+    &__btn {
+        display: inline-block;
+        height: 50px;
+        line-height: 48px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        letter-spacing: 2.8px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 0 60px; 
+        text-decoration: none;
+
+    
+    }
+    
+}
+
+.block-shop {
+    height: 100%;
+    &__row {
+        display: flex;
+    }
+    &__column {
+        flex: 0 1 50%;
+    }
+    &__item {
+        padding: 0 0 50% 0;
+        height: auto;
+        &_b {
+            padding: 0 0 200.5% 0;
+        }
+        &_l {
+            padding: 0 0 100% 0;
+
+        }
+    }
+}
