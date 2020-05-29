@@ -1,3 +1,24 @@
+@media (max-width: 500px) {
+    .subscribe {
+        &__form {
+            display: block;
+        }
+        &__input {
+            padding: 0 0 8px 0;
+        }
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .subscribe {
+        &__body {
+            padding: 50px 0;
+        }
+    }
+    
+}
+
 @media (max-width: 767px) {
     .menu {
         &__body {
