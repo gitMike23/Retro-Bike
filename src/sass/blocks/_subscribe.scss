@@ -1,4 +1,7 @@
 .subscribe {
+    label.error {
+        border: none;
+    }
     &__body {
         padding: 110px 0;
         max-width: 534px;
@@ -16,6 +19,9 @@
     }
     &__form {
         display: flex;
+        .error {
+            border: 1px solid red;
+        }
     }
     &__input {
         flex: 1 1 auto;
@@ -29,14 +35,16 @@
             color: #929292;
             font-size: 20px;
             font-style: italic;
-
+        }
+        #email-error {
+            display: block;
+            margin-top: 5px;
+            color: #848789;
+            
         }
     }
     &__button {
-        flex: 0 0 126px;
-        
-        
-
+        flex: 0 0 126px;    
     }
     &__btn {
         color: #fff;

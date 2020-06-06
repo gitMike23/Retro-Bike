@@ -33,6 +33,24 @@ $(document).ready(function(){
             settings: {}
         }]
     });
+
+    // form validation
+
+    $('.subscribe__form').validate({
+        rules: {
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            email: {
+                required: "Please, enter your e-mail address",
+                email: "Please, enter a valid email address"
+            }
+        }
+    });
+
 });
  
   
