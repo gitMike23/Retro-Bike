@@ -26,14 +26,43 @@
             position: relative;
             list-style-type: none;
             padding: 0px 37.5px;
+            &:before {
+                content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            width: 0%;
+            height: 1px;
+            transform: translateX(-50%);
+            background-color: #4d4959;
+            transition: width .3s ease-in-out;
+            }
+            &:hover:before {
+                width: 60%
+            }
+
             &:nth-child(2) {
                 padding: 0px 110px 0px 37.5px;
                 &:after {
                     display: none;
                 }
+                &:before {
+                    left: 32%;
+                }
+                &:hover:before {
+                    width: 33%
+                }
+
             }
             &:nth-child(3) {
                 padding: 0px 37.5px 0px 110px;
+                &:before {
+                    left: 68%;
+                }
+                &:hover:before {
+                    width: 30%;
+                }
+                
             }
             &:after {
                 content: "";
@@ -51,6 +80,7 @@
                     display: none;
                 }
             }
+            
         }
         a {
             text-decoration: none;
